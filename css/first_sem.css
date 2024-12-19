@@ -1,0 +1,97 @@
+input[type="checkbox"]:hover {
+    accent-color: #f10101;
+}
+
+input[type="checkbox"] {
+    accent-color: #09f101;
+}
+
+.name {
+    text-align: right;
+}
+
+#scroll_img{
+    position: fixed;
+}
+
+.content {
+    width: 100%;
+    padding: 0px;
+    word-wrap: break-word;
+    font-size: larger;
+    box-sizing: border-box;
+}
+
+
+
+
+#table2, #table1 {
+    width: 100%;
+    border-collapse: initial;
+    border: 3px solid;
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+    display: table;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+th, td {
+    text-align: center;
+    border-width: 2px;
+    border-color: rgb(50, 50, 50);
+    
+ }
+
+th {
+    background-color: rgb(200, 200, 200);
+}
+
+tr:hover {
+    background-color: rgb(200, 200, 200);
+    transform: scale(1);
+    font-size: 23px;
+}
+
+
+#map, #work_programm {
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1200px) {
+    * {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #table1 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #table1 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #table1 {
+        width: 100%;
+    }
+
+    table {
+        margin-left: -5px;
+    }
+    
+    #map {
+        margin-left: -5px;
+    }
+
+    #work_programm {
+        margin-left: -5px;
+    }
+}
